@@ -1,379 +1,1061 @@
 Simulator.run(): Trial 0
+Environment.reset(): Trial set up with start = (6, 3), destination = (8, 5), deadline = 20
+RoutePlanner.route_to(): destination = (8, 5)
+t = 0
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.0, (False, True, False, False, False): 0.0, (True, True, False, False, False): 0.0}
+t = 10
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): 0.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 1
+Environment.reset(): Trial set up with start = (7, 2), destination = (2, 6), deadline = 45
+RoutePlanner.route_to(): destination = (2, 6)
+t = 0
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 12.0}
+t = 10
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 20
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 30
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 40
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 2
+Environment.reset(): Trial set up with start = (1, 6), destination = (4, 3), deadline = 30
+RoutePlanner.route_to(): destination = (4, 3)
+t = 0
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 10
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 20
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 30
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 3
+Environment.reset(): Trial set up with start = (7, 1), destination = (6, 6), deadline = 30
+RoutePlanner.route_to(): destination = (6, 6)
+t = 0
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 10
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 20
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 30
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 4
+Environment.reset(): Trial set up with start = (4, 5), destination = (7, 6), deadline = 20
+RoutePlanner.route_to(): destination = (7, 6)
+t = 0
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 10
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 20
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 5
+Environment.reset(): Trial set up with start = (8, 5), destination = (4, 1), deadline = 40
+RoutePlanner.route_to(): destination = (4, 1)
+t = 0
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 10
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 20
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 30
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 40
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 6
+Environment.reset(): Trial set up with start = (6, 4), destination = (1, 4), deadline = 25
+RoutePlanner.route_to(): destination = (1, 4)
+t = 0
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 10
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 20
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 7
+Environment.reset(): Trial set up with start = (1, 3), destination = (7, 1), deadline = 40
+RoutePlanner.route_to(): destination = (7, 1)
+t = 0
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 10
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 20
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 30
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 40
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 8
+Environment.reset(): Trial set up with start = (5, 3), destination = (8, 4), deadline = 20
+RoutePlanner.route_to(): destination = (8, 4)
+t = 0
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 10
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 20
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 9
+Environment.reset(): Trial set up with start = (1, 4), destination = (6, 1), deadline = 40
+RoutePlanner.route_to(): destination = (6, 1)
+t = 0
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 10
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 20
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 30
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 40
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 10
+Environment.reset(): Trial set up with start = (8, 6), destination = (7, 3), deadline = 20
+RoutePlanner.route_to(): destination = (7, 3)
+t = 0
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 10
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 11
+Environment.reset(): Trial set up with start = (8, 6), destination = (6, 2), deadline = 30
+RoutePlanner.route_to(): destination = (6, 2)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 12
+Environment.reset(): Trial set up with start = (8, 1), destination = (4, 3), deadline = 30
+RoutePlanner.route_to(): destination = (4, 3)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 13
+Environment.reset(): Trial set up with start = (6, 3), destination = (5, 6), deadline = 20
+RoutePlanner.route_to(): destination = (5, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 14
+Environment.reset(): Trial set up with start = (5, 3), destination = (7, 1), deadline = 20
+RoutePlanner.route_to(): destination = (7, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 15
+Environment.reset(): Trial set up with start = (1, 6), destination = (6, 6), deadline = 25
+RoutePlanner.route_to(): destination = (6, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 16
+Environment.reset(): Trial set up with start = (8, 2), destination = (4, 3), deadline = 25
+RoutePlanner.route_to(): destination = (4, 3)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 17
+Environment.reset(): Trial set up with start = (1, 1), destination = (3, 6), deadline = 35
+RoutePlanner.route_to(): destination = (3, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 18
+Environment.reset(): Trial set up with start = (1, 3), destination = (4, 1), deadline = 25
+RoutePlanner.route_to(): destination = (4, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 19
+Environment.reset(): Trial set up with start = (6, 6), destination = (3, 3), deadline = 30
+RoutePlanner.route_to(): destination = (3, 3)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 20
+Environment.reset(): Trial set up with start = (7, 6), destination = (2, 6), deadline = 25
+RoutePlanner.route_to(): destination = (2, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 21
+Environment.reset(): Trial set up with start = (7, 4), destination = (3, 4), deadline = 20
+RoutePlanner.route_to(): destination = (3, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 22
+Environment.reset(): Trial set up with start = (6, 1), destination = (3, 4), deadline = 30
+RoutePlanner.route_to(): destination = (3, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 23
+Environment.reset(): Trial set up with start = (6, 2), destination = (1, 5), deadline = 40
+RoutePlanner.route_to(): destination = (1, 5)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 40
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 24
+Environment.reset(): Trial set up with start = (8, 4), destination = (5, 5), deadline = 20
+RoutePlanner.route_to(): destination = (5, 5)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Simulator.run(): Trial 25
+Environment.reset(): Trial set up with start = (6, 5), destination = (1, 4), deadline = 30
+RoutePlanner.route_to(): destination = (1, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 26
+Environment.reset(): Trial set up with start = (5, 5), destination = (1, 6), deadline = 25
+RoutePlanner.route_to(): destination = (1, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 27
+Environment.reset(): Trial set up with start = (6, 3), destination = (4, 6), deadline = 25
+RoutePlanner.route_to(): destination = (4, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 28
+Environment.reset(): Trial set up with start = (6, 5), destination = (5, 2), deadline = 20
+RoutePlanner.route_to(): destination = (5, 2)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 29
+Environment.reset(): Trial set up with start = (2, 2), destination = (4, 6), deadline = 30
+RoutePlanner.route_to(): destination = (4, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 30
+Environment.reset(): Trial set up with start = (7, 6), destination = (3, 4), deadline = 30
+RoutePlanner.route_to(): destination = (3, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 31
+Environment.reset(): Trial set up with start = (1, 3), destination = (3, 6), deadline = 25
+RoutePlanner.route_to(): destination = (3, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 32
+Environment.reset(): Trial set up with start = (1, 4), destination = (3, 2), deadline = 20
+RoutePlanner.route_to(): destination = (3, 2)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 33
+Environment.reset(): Trial set up with start = (1, 6), destination = (2, 1), deadline = 30
+RoutePlanner.route_to(): destination = (2, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 34
+Environment.reset(): Trial set up with start = (8, 1), destination = (3, 1), deadline = 25
+RoutePlanner.route_to(): destination = (3, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 35
+Environment.reset(): Trial set up with start = (1, 4), destination = (6, 1), deadline = 40
+RoutePlanner.route_to(): destination = (6, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 40
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 36
 Environment.reset(): Trial set up with start = (2, 5), destination = (5, 2), deadline = 30
 RoutePlanner.route_to(): destination = (5, 2)
 t = 0
-{(False, False, False, False, True): 0.0, (False, False, False, False, False): 0.0, (False, True, False, False, False): 0.0, (True, True, False, False, False): -1.0}
-t = 1
-{(False, False, False, False, True): 0.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): 0.0, (True, True, False, False, False): -1.0}
-t = 2
-{(False, False, False, False, True): 0.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): 0.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
-t = 3
-{(False, False, False, False, True): 0.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
-t = 4
-{(False, False, False, False, True): 0.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
-t = 5
-{(False, False, False, False, True): 0.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
-t = 6
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
-t = 7
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
-t = 8
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
-t = 9
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
 t = 10
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
-t = 11
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
-t = 12
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
-t = 13
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
-DEBUG: ('forward', 'green', None, None, None), forward
-t = 14
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 15
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 16
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 17
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 18
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 19
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
 t = 20
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 21
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 22
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 23
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 24
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 25
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 26
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 27
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-DEBUG: ('left', 'green', None, None, None), left
-t = 28
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 29
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
 t = 30
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 31
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 32
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 33
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-DEBUG: ('right', 'red', None, None, None), right
-t = 34
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 35
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 36
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 37
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 38
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 39
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 37
+Environment.reset(): Trial set up with start = (5, 5), destination = (8, 1), deadline = 35
+RoutePlanner.route_to(): destination = (8, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 38
+Environment.reset(): Trial set up with start = (7, 4), destination = (4, 6), deadline = 25
+RoutePlanner.route_to(): destination = (4, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 39
+Environment.reset(): Trial set up with start = (1, 6), destination = (5, 1), deadline = 45
+RoutePlanner.route_to(): destination = (5, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
 t = 40
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 41
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 42
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 43
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 44
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 45
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-DEBUG: ('right', 'red', 'right', None, None), right
-t = 46
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 47
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 48
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 49
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 50
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 51
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-DEBUG: ('left', 'green', None, None, None), left
-t = 52
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 53
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-DEBUG: ('forward', 'green', None, None, None), forward
-t = 54
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 55
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 56
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 57
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 58
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 59
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-DEBUG: ('right', 'red', None, None, None), right
-t = 60
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 61
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-DEBUG: ('right', 'red', None, None, None), right
-t = 62
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 63
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 64
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 65
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 66
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 67
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 68
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 69
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 70
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-DEBUG: ('right', 'green', None, None, None), right
-t = 71
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 72
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 73
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 74
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 75
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-DEBUG: ('right', 'green', None, None, None), right
-t = 76
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 77
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 78
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 79
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 80
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 81
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 82
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-DEBUG: ('right', 'green', None, None, None), right
-t = 83
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 84
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 85
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 86
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-DEBUG: ('right', 'red', None, None, 'left'), right
-t = 87
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 88
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 89
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 90
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 91
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 92
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 93
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-DEBUG: ('forward', 'green', None, None, None), forward
-t = 94
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-DEBUG: ('forward', 'green', None, None, None), forward
-t = 95
-{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
-t = 96
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 97
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 98
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 99
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 100
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 101
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 102
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 103
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-DEBUG: ('right', 'green', None, None, None), right
-t = 104
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-DEBUG: ('right', 'red', None, None, None), right
-t = 105
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 106
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 107
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 108
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 109
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 110
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-DEBUG: ('left', 'green', None, None, None), left
-t = 111
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-DEBUG: ('right', 'red', None, None, None), right
-t = 112
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-DEBUG: ('forward', 'green', None, None, None), forward
-t = 113
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-DEBUG: ('forward', 'green', None, None, None), forward
-t = 114
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 40
+Environment.reset(): Trial set up with start = (1, 6), destination = (5, 4), deadline = 30
+RoutePlanner.route_to(): destination = (5, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 41
+Environment.reset(): Trial set up with start = (7, 6), destination = (4, 3), deadline = 30
+RoutePlanner.route_to(): destination = (4, 3)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
 Environment.act(): Primary agent has reached destination!
-DEBUG: ('forward', 'green', None, None, None), forward
-t = 115
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-Simulator.run(): Trial 1
-Environment.reset(): Trial set up with start = (2, 2), destination = (2, 6), deadline = 20
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Simulator.run(): Trial 42
+Environment.reset(): Trial set up with start = (3, 6), destination = (4, 1), deadline = 30
+RoutePlanner.route_to(): destination = (4, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 43
+Environment.reset(): Trial set up with start = (2, 5), destination = (7, 5), deadline = 25
+RoutePlanner.route_to(): destination = (7, 5)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 44
+Environment.reset(): Trial set up with start = (1, 3), destination = (8, 1), deadline = 45
+RoutePlanner.route_to(): destination = (8, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 45
+Environment.reset(): Trial set up with start = (4, 2), destination = (3, 6), deadline = 25
+RoutePlanner.route_to(): destination = (3, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 46
+Environment.reset(): Trial set up with start = (4, 2), destination = (2, 6), deadline = 30
 RoutePlanner.route_to(): destination = (2, 6)
 t = 0
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 1
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 2
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 3
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 4
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-DEBUG: ('forward', 'green', None, None, None), forward
-t = 5
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 6
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 7
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 8
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 9
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-DEBUG: ('right', 'red', None, None, None), right
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
 t = 10
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 11
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 12
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 13
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 14
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 15
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 16
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 17
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 18
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 19
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
 t = 20
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-DEBUG: ('left', 'green', None, 'right', None), left
-t = 21
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-DEBUG: ('forward', 'green', None, None, None), forward
-t = 22
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 23
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 24
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 25
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 26
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 27
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 28
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 29
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
 t = 30
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 31
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-DEBUG: ('right', 'green', None, None, None), right
-t = 32
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-DEBUG: ('right', 'red', None, None, None), right
-t = 33
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 34
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 35
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 36
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 37
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 38
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 39
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 47
+Environment.reset(): Trial set up with start = (1, 4), destination = (5, 6), deadline = 30
+RoutePlanner.route_to(): destination = (5, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 48
+Environment.reset(): Trial set up with start = (8, 4), destination = (4, 4), deadline = 20
+RoutePlanner.route_to(): destination = (4, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 49
+Environment.reset(): Trial set up with start = (8, 3), destination = (5, 1), deadline = 25
+RoutePlanner.route_to(): destination = (5, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 50
+Environment.reset(): Trial set up with start = (3, 6), destination = (8, 4), deadline = 35
+RoutePlanner.route_to(): destination = (8, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 51
+Environment.reset(): Trial set up with start = (2, 4), destination = (8, 2), deadline = 40
+RoutePlanner.route_to(): destination = (8, 2)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
 t = 40
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 41
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 42
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 43
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-DEBUG: ('right', 'red', None, None, None), right
-t = 44
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 45
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 46
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 47
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 48
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 49
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 50
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 51
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 52
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 53
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 54
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
-t = 55
-{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 52
+Environment.reset(): Trial set up with start = (7, 3), destination = (3, 4), deadline = 25
+RoutePlanner.route_to(): destination = (3, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 53
+Environment.reset(): Trial set up with start = (4, 2), destination = (6, 6), deadline = 30
+RoutePlanner.route_to(): destination = (6, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 54
+Environment.reset(): Trial set up with start = (7, 6), destination = (1, 5), deadline = 35
+RoutePlanner.route_to(): destination = (1, 5)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 55
+Environment.reset(): Trial set up with start = (1, 1), destination = (5, 5), deadline = 40
+RoutePlanner.route_to(): destination = (5, 5)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 40
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 56
+Environment.reset(): Trial set up with start = (7, 5), destination = (4, 3), deadline = 25
+RoutePlanner.route_to(): destination = (4, 3)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 57
+Environment.reset(): Trial set up with start = (3, 2), destination = (2, 5), deadline = 20
+RoutePlanner.route_to(): destination = (2, 5)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 58
+Environment.reset(): Trial set up with start = (7, 1), destination = (1, 1), deadline = 30
+RoutePlanner.route_to(): destination = (1, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 59
+Environment.reset(): Trial set up with start = (8, 6), destination = (3, 4), deadline = 35
+RoutePlanner.route_to(): destination = (3, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 60
+Environment.reset(): Trial set up with start = (4, 2), destination = (6, 6), deadline = 30
+RoutePlanner.route_to(): destination = (6, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 61
+Environment.reset(): Trial set up with start = (6, 4), destination = (2, 5), deadline = 25
+RoutePlanner.route_to(): destination = (2, 5)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 62
+Environment.reset(): Trial set up with start = (1, 4), destination = (6, 3), deadline = 30
+RoutePlanner.route_to(): destination = (6, 3)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 63
+Environment.reset(): Trial set up with start = (4, 3), destination = (7, 4), deadline = 20
+RoutePlanner.route_to(): destination = (7, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 64
+Environment.reset(): Trial set up with start = (5, 2), destination = (6, 6), deadline = 25
+RoutePlanner.route_to(): destination = (6, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 65
+Environment.reset(): Trial set up with start = (7, 5), destination = (5, 2), deadline = 25
+RoutePlanner.route_to(): destination = (5, 2)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 66
+Environment.reset(): Trial set up with start = (4, 1), destination = (4, 6), deadline = 25
+RoutePlanner.route_to(): destination = (4, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 67
+Environment.reset(): Trial set up with start = (3, 6), destination = (7, 3), deadline = 35
+RoutePlanner.route_to(): destination = (7, 3)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 68
+Environment.reset(): Trial set up with start = (4, 3), destination = (6, 6), deadline = 25
+RoutePlanner.route_to(): destination = (6, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 69
+Environment.reset(): Trial set up with start = (4, 6), destination = (1, 1), deadline = 40
+RoutePlanner.route_to(): destination = (1, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 40
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 70
+Environment.reset(): Trial set up with start = (5, 1), destination = (5, 6), deadline = 25
+RoutePlanner.route_to(): destination = (5, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 71
+Environment.reset(): Trial set up with start = (7, 3), destination = (4, 5), deadline = 25
+RoutePlanner.route_to(): destination = (4, 5)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 72
+Environment.reset(): Trial set up with start = (7, 4), destination = (1, 5), deadline = 35
+RoutePlanner.route_to(): destination = (1, 5)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 73
+Environment.reset(): Trial set up with start = (2, 5), destination = (7, 4), deadline = 30
+RoutePlanner.route_to(): destination = (7, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 74
+Environment.reset(): Trial set up with start = (7, 2), destination = (4, 6), deadline = 35
+RoutePlanner.route_to(): destination = (4, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 75
+Environment.reset(): Trial set up with start = (8, 3), destination = (1, 4), deadline = 40
+RoutePlanner.route_to(): destination = (1, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 40
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 76
+Environment.reset(): Trial set up with start = (4, 5), destination = (7, 1), deadline = 35
+RoutePlanner.route_to(): destination = (7, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 77
+Environment.reset(): Trial set up with start = (1, 4), destination = (3, 2), deadline = 20
+RoutePlanner.route_to(): destination = (3, 2)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 78
+Environment.reset(): Trial set up with start = (1, 4), destination = (7, 2), deadline = 40
+RoutePlanner.route_to(): destination = (7, 2)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+t = 40
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 79
+Environment.reset(): Trial set up with start = (5, 1), destination = (2, 3), deadline = 25
+RoutePlanner.route_to(): destination = (2, 3)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 80
+Environment.reset(): Trial set up with start = (1, 1), destination = (3, 4), deadline = 25
+RoutePlanner.route_to(): destination = (3, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 81
+Environment.reset(): Trial set up with start = (4, 2), destination = (7, 1), deadline = 20
+RoutePlanner.route_to(): destination = (7, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 82
+Environment.reset(): Trial set up with start = (5, 3), destination = (1, 6), deadline = 35
+RoutePlanner.route_to(): destination = (1, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 83
+Environment.reset(): Trial set up with start = (6, 1), destination = (1, 2), deadline = 30
+RoutePlanner.route_to(): destination = (1, 2)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+t = 10
+{(False, False, False, False, False): 10.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Simulator.run(): Trial 84
+Environment.reset(): Trial set up with start = (3, 3), destination = (6, 4), deadline = 20
+RoutePlanner.route_to(): destination = (6, 4)
+t = 0
+{(False, False, False, False, False): 10.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 85
+Environment.reset(): Trial set up with start = (1, 5), destination = (1, 1), deadline = 20
+RoutePlanner.route_to(): destination = (1, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 86
+Environment.reset(): Trial set up with start = (6, 2), destination = (2, 2), deadline = 20
+RoutePlanner.route_to(): destination = (2, 2)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
+Simulator.run(): Trial 87
+Environment.reset(): Trial set up with start = (3, 3), destination = (7, 4), deadline = 25
+RoutePlanner.route_to(): destination = (7, 4)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 12.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 88
+Environment.reset(): Trial set up with start = (5, 6), destination = (1, 3), deadline = 35
+RoutePlanner.route_to(): destination = (1, 3)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 89
+Environment.reset(): Trial set up with start = (4, 4), destination = (7, 6), deadline = 25
+RoutePlanner.route_to(): destination = (7, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 90
+Environment.reset(): Trial set up with start = (4, 6), destination = (8, 3), deadline = 35
+RoutePlanner.route_to(): destination = (8, 3)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 91
+Environment.reset(): Trial set up with start = (7, 5), destination = (2, 5), deadline = 25
+RoutePlanner.route_to(): destination = (2, 5)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 0.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 92
+Environment.reset(): Trial set up with start = (8, 2), destination = (3, 2), deadline = 25
+RoutePlanner.route_to(): destination = (3, 2)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 93
+Environment.reset(): Trial set up with start = (3, 5), destination = (3, 1), deadline = 20
+RoutePlanner.route_to(): destination = (3, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 94
+Environment.reset(): Trial set up with start = (5, 1), destination = (5, 5), deadline = 20
+RoutePlanner.route_to(): destination = (5, 5)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 95
+Environment.reset(): Trial set up with start = (3, 2), destination = (7, 5), deadline = 35
+RoutePlanner.route_to(): destination = (7, 5)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 96
+Environment.reset(): Trial set up with start = (5, 6), destination = (3, 3), deadline = 25
+RoutePlanner.route_to(): destination = (3, 3)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 97
+Environment.reset(): Trial set up with start = (3, 6), destination = (8, 3), deadline = 40
+RoutePlanner.route_to(): destination = (8, 3)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 40
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 98
+Environment.reset(): Trial set up with start = (7, 3), destination = (4, 5), deadline = 25
+RoutePlanner.route_to(): destination = (4, 5)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 99
+Environment.reset(): Trial set up with start = (2, 5), destination = (6, 1), deadline = 40
+RoutePlanner.route_to(): destination = (6, 1)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (False, False, False, True, False): 0.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (True, False, False, True, False): 2.0, (False, False, True, False, False): 0.5}
+Environment.act(): Primary agent has reached destination!
