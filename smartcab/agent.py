@@ -59,13 +59,23 @@ class LearningAgent(Agent):
         # Execute action and get reward
         reward = self.env.act(self, action)
 
+        # DEBUG
+        if reward is 2:
+            print 'DEBUG: ' + str(state) + ', ' + str(action)
+            pass
+
         # TODO: Learn policy based on state, action, reward
+        '''
         # Update the Q-value for the *previous* state, using current reward
         if self.prev_sa is not None:
             new_q = reward + self.GAMMA * max([self.qtable[self.compress_sa(state, a)] for a in valid_actions])
             self.qtable[self.prev_sa] = (1 - self.ALPHA) * self.qtable[self.prev_sa] + self.ALPHA * new_q
 
         self.prev_sa = self.compress_sa(state, action)
+        '''
+        sa = self.compress_sa(state, action)
+        new_q = reward + self.GAMMA * max([self.qtable[self.compress_sa(state, a)] for a in valid_actions])
+        self.qtable[sa] = (1 - self.ALPHA) * self.qtable[sa] + self.ALPHA * new_q
 
         #print "LearningAgent.update(): deadline = {}, inputs = {}, action = {}, reward = {}".format(deadline, inputs, action, reward)  # [debug]
         print 't = ' + str(t); print self.qtable

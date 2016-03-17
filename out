@@ -1,0 +1,379 @@
+Simulator.run(): Trial 0
+Environment.reset(): Trial set up with start = (2, 5), destination = (5, 2), deadline = 30
+RoutePlanner.route_to(): destination = (5, 2)
+t = 0
+{(False, False, False, False, True): 0.0, (False, False, False, False, False): 0.0, (False, True, False, False, False): 0.0, (True, True, False, False, False): -1.0}
+t = 1
+{(False, False, False, False, True): 0.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): 0.0, (True, True, False, False, False): -1.0}
+t = 2
+{(False, False, False, False, True): 0.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): 0.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
+t = 3
+{(False, False, False, False, True): 0.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
+t = 4
+{(False, False, False, False, True): 0.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
+t = 5
+{(False, False, False, False, True): 0.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
+t = 6
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
+t = 7
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
+t = 8
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
+t = 9
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
+t = 10
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
+t = 11
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
+t = 12
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
+t = 13
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 0.0}
+DEBUG: ('forward', 'green', None, None, None), forward
+t = 14
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 15
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 16
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 17
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 18
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 19
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 20
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 21
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 22
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 23
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 24
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 25
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 26
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 27
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+DEBUG: ('left', 'green', None, None, None), left
+t = 28
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 29
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 30
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 31
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 32
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 33
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+DEBUG: ('right', 'red', None, None, None), right
+t = 34
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 35
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 36
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 37
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 38
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 39
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 40
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 41
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 42
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 43
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 44
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 45
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+DEBUG: ('right', 'red', 'right', None, None), right
+t = 46
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 47
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 48
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 49
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 50
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 51
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+DEBUG: ('left', 'green', None, None, None), left
+t = 52
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 53
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+DEBUG: ('forward', 'green', None, None, None), forward
+t = 54
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 55
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 56
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 57
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 58
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 59
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+DEBUG: ('right', 'red', None, None, None), right
+t = 60
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 61
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+DEBUG: ('right', 'red', None, None, None), right
+t = 62
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 63
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 64
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 65
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 66
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 67
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 68
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 69
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 70
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+DEBUG: ('right', 'green', None, None, None), right
+t = 71
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 72
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 73
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 74
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 75
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+DEBUG: ('right', 'green', None, None, None), right
+t = 76
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 77
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 78
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 79
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 80
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 81
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 82
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+DEBUG: ('right', 'green', None, None, None), right
+t = 83
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 84
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 85
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 86
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+DEBUG: ('right', 'red', None, None, 'left'), right
+t = 87
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 88
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 89
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 90
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 91
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 92
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 93
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+DEBUG: ('forward', 'green', None, None, None), forward
+t = 94
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+DEBUG: ('forward', 'green', None, None, None), forward
+t = 95
+{(False, False, False, False, True): 1.0, (False, False, False, False, False): 0.5, (False, True, False, False, False): -1.0, (True, True, False, False, False): -1.0, (True, False, False, False, False): 2.0}
+t = 96
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 97
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 98
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 99
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 100
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 101
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 102
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 103
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+DEBUG: ('right', 'green', None, None, None), right
+t = 104
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+DEBUG: ('right', 'red', None, None, None), right
+t = 105
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 106
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 107
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 108
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 109
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 110
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+DEBUG: ('left', 'green', None, None, None), left
+t = 111
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+DEBUG: ('right', 'red', None, None, None), right
+t = 112
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+DEBUG: ('forward', 'green', None, None, None), forward
+t = 113
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+DEBUG: ('forward', 'green', None, None, None), forward
+t = 114
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+Environment.act(): Primary agent has reached destination!
+DEBUG: ('forward', 'green', None, None, None), forward
+t = 115
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+Simulator.run(): Trial 1
+Environment.reset(): Trial set up with start = (2, 2), destination = (2, 6), deadline = 20
+RoutePlanner.route_to(): destination = (2, 6)
+t = 0
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 1
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 2
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 3
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 4
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+DEBUG: ('forward', 'green', None, None, None), forward
+t = 5
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 6
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 7
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 8
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 9
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+DEBUG: ('right', 'red', None, None, None), right
+t = 10
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 11
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 12
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 13
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 14
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 15
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 16
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 17
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 18
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 19
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 20
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+DEBUG: ('left', 'green', None, 'right', None), left
+t = 21
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+DEBUG: ('forward', 'green', None, None, None), forward
+t = 22
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 23
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 24
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 25
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 26
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 27
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 28
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 29
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 30
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 31
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+DEBUG: ('right', 'green', None, None, None), right
+t = 32
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+DEBUG: ('right', 'red', None, None, None), right
+t = 33
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 34
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 35
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 36
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 37
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 38
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 39
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 40
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 41
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 42
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 43
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+DEBUG: ('right', 'red', None, None, None), right
+t = 44
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 45
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 46
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 47
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 48
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 49
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 50
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 51
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 52
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 53
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 54
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
+t = 55
+{(False, False, False, False, False): 0.5, (True, True, False, False, False): -1.0, (False, True, False, False, False): -1.0, (True, False, False, False, False): 2.0, (False, False, False, False, True): 1.0, (False, False, True, False, False): 0.0}
