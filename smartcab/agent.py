@@ -17,11 +17,11 @@ class LearningAgent(Agent):
 
         # Constants
         self.INITIAL_Q = 0.
-        self.SIGMOID_OFFSET = 6
-        self.SIGMOID_RATE = 0.05
-        self.MIN_RAND_PROB = 0.1
-        self.ALPHA = 1.
-        self.GAMMA = 0.
+        self.SIGMOID_OFFSET = 6.
+        self.SIGMOID_RATE = 0.8
+        self.MIN_RAND_PROB = 0.
+        self.ALPHA = 0.1
+        self.GAMMA = 0.5
 
     def reset(self, destination=None):
         self.planner.route_to(destination)
@@ -73,28 +73,23 @@ class LearningAgent(Agent):
         # Recall: state = (self.next_waypoint, inputs['light'], inputs['oncoming'], inputs['left'], inputs['right'])
         wp, light, oncoming, left, right = state
 
-        # sa = [follow waypoint, run red light, left turn yield fail, right turn yield fail, don't move]
-        sa = [False for x in range(5)]
+        # State compression and internal representation
 
-        # Follow waypoint
-        if action is wp:
-            sa[0] = True
+        # Ignore 'left' when 'light' is green
+        if light is 'green':
+            left = None
+        # Ignore 'oncoming' when 'light' is red
+        elif light is 'red':
+            oncoming = None
 
-        # Run red light
-        if (action is 'forward' or action is 'left') and light is 'red':
-            sa[1] = True
+        # Ignore 'right' altogether, since traffic on the right has no effect on our driving agent
+        # Also append our action to the end of list
+        sa = [wp, light, oncoming, left, action]
 
-        # Left turn yield fail
-        if action is 'left' and (oncoming is 'forward' or oncoming is 'right') and light is 'green':
-            sa[2] = True
-
-        # Right turn yield fail
-        if action is 'right' and left is 'forward' and light is 'red':
-            sa[3] = True
-
-        # Don't move
-        if action is None:
-            sa[4] = True
+        # Change None to string 'None', so we can use the compressed state+action (tuple) as a hash
+        for i in range(len(sa)):
+            if sa[i] is None:
+                sa[i] = 'None'
 
         return tuple(sa)
 
