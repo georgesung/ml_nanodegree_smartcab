@@ -15,6 +15,8 @@ class LearningAgent(Agent):
         self.qtable = {}  # Q-value table: key = state-action, value = Q-value
         self.prev_sa = None  # keep track of previous state-action
         self.global_t = 0.  # keep track of global time, i.e. how many times agent performs update function
+        self.net_reward = 0
+        self.penalties = 0  # number of times a penalty (reward < 0) was incurred
 
         # Constants
         self.INITIAL_Q = 0.
@@ -27,6 +29,8 @@ class LearningAgent(Agent):
     def reset(self, destination=None):
         self.planner.route_to(destination)
         # TODO: Prepare for a new trip; reset any variables here, if required
+        self.net_reward = 0
+        self.penalties = 0
 
     def update(self, t):
         # Gather inputs
@@ -60,16 +64,25 @@ class LearningAgent(Agent):
         # Execute action and get reward
         reward = self.env.act(self, action)
 
+        # Keep track of net_reward and penalties
+        self.net_reward += reward
+        if reward < 0:
+            self.penalties += 1
+
         # TODO: Learn policy based on state, action, reward
         sa = self.compress_sa(state, action)
         new_q = reward + self.GAMMA * max([self.qtable[self.compress_sa(state, a)] for a in valid_actions])
         self.qtable[sa] = (1 - self.ALPHA) * self.qtable[sa] + self.ALPHA * new_q
 
         #print "LearningAgent.update(): deadline = {}, inputs = {}, action = {}, reward = {}".format(deadline, inputs, action, reward)  # [debug]
-        if t%10 == 0:  # [debug]
-            print 't = ' + str(t); print self.qtable  # [debug]
+        #if t%10 == 0:  # [debug]
+        #    print 't = ' + str(t); print self.qtable  # [debug]
 
+        # Increment global lifetime of agent
         self.global_t += 1.
+
+        # Report net_reward and number of penalties
+        #print 'Net reward: %i, # of penalties: %i' % (self.net_reward, self.penalties)
 
     def compress_sa(self, state, action):
         """Given state, action pair, compress it into a smaller representation space"""
