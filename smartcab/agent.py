@@ -14,11 +14,12 @@ class LearningAgent(Agent):
         # TODO: Initialize any additional variables here
         self.qtable = {}  # Q-value table: key = state-action, value = Q-value
         self.prev_sa = None  # keep track of previous state-action
+        self.global_t = 0.  # keep track of global time, i.e. how many times agent performs update function
 
         # Constants
         self.INITIAL_Q = 0.
         self.SIGMOID_OFFSET = 6.
-        self.SIGMOID_RATE = 0.8
+        self.SIGMOID_RATE = 0.1
         self.MIN_RAND_PROB = 0.
         self.ALPHA = 0.1
         self.GAMMA = 0.5
@@ -47,7 +48,7 @@ class LearningAgent(Agent):
         # I.e. Sshifting from "exploration" to "exploitation"
         #   * Random policy (minimum probability of choosing random policy is MIN_RAND_PROB)
         #   * Given our current state, choose the action with maximum Q(state, action) value
-        prob_q = 1/(1 + math.exp(-self.SIGMOID_RATE*t + self.SIGMOID_OFFSET))  # sigmoid function
+        prob_q = 1/(1 + math.exp(-self.SIGMOID_RATE*self.global_t + self.SIGMOID_OFFSET))  # sigmoid function
         threshold = random.uniform(0, 1)
 
         if prob_q - self.MIN_RAND_PROB >= threshold:
@@ -67,6 +68,8 @@ class LearningAgent(Agent):
         #print "LearningAgent.update(): deadline = {}, inputs = {}, action = {}, reward = {}".format(deadline, inputs, action, reward)  # [debug]
         if t%10 == 0:  # [debug]
             print 't = ' + str(t); print self.qtable  # [debug]
+
+        self.global_t += 1.
 
     def compress_sa(self, state, action):
         """Given state, action pair, compress it into a smaller representation space"""

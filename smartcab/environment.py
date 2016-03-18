@@ -55,7 +55,6 @@ class Environment(object):
 
         # Dummy agents
         self.num_dummies = 3  # no. of dummy agents
-        #self.num_dummies = 10  # [debug]
         for i in xrange(self.num_dummies):
             self.create_agent(DummyAgent)
 
