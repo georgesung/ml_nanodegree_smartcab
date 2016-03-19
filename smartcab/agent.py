@@ -20,9 +20,10 @@ class LearningAgent(Agent):
 
         # Constants
         self.INITIAL_Q = 0.
-        self.SIGMOID_OFFSET = 6.
-        self.SIGMOID_RATE = 0.01
-        self.ALPHA = 0.1
+        self.SIGMOID_OFFSET = 6.  # Epsilon-greedy optimization: Epsilon = 1 - sigmoid_function
+        self.SIGMOID_RATE = 0.01  # (same as above)
+        #self.ALPHA = 0.1
+        self.ALPHA_DECAY = 0.5  # alpha = (global_t + 1)**(-ALPHA_DECAY)
         self.GAMMA = 0.5
 
     def reset(self, destination=None):
@@ -71,7 +72,9 @@ class LearningAgent(Agent):
         # TODO: Learn policy based on state, action, reward
         sa = self.compress_sa(state, action)
         new_q = reward + self.GAMMA * max([self.qtable[self.compress_sa(state, a)] for a in valid_actions])
-        self.qtable[sa] = (1 - self.ALPHA) * self.qtable[sa] + self.ALPHA * new_q
+
+        alpha = (self.global_t + 1)**(-self.ALPHA_DECAY)
+        self.qtable[sa] = (1 - alpha) * self.qtable[sa] + alpha * new_q
 
         #print "LearningAgent.update(): deadline = {}, inputs = {}, action = {}, reward = {}".format(deadline, inputs, action, reward)  # [debug]
         #if t%10 == 0:  # [debug]
