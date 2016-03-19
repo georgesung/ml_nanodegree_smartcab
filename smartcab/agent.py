@@ -20,11 +20,10 @@ class LearningAgent(Agent):
 
         # Constants
         self.INITIAL_Q = 0.
-        self.SIGMOID_OFFSET = 6.  # Epsilon-greedy optimization: Epsilon = 1 - sigmoid_function
+        self.SIGMOID_OFFSET = 6.  # Epsilon-greedy exploration: Epsilon = 1 - sigmoid_function
         self.SIGMOID_RATE = 0.01  # (same as above)
-        #self.ALPHA = 0.1
-        self.ALPHA_DECAY = 0.5  # alpha = (global_t + 1)**(-ALPHA_DECAY)
-        self.GAMMA = 0.5
+        self.ALPHA_DECAY = 0.5  # learning rate: alpha = (global_t + 1)**(-ALPHA_DECAY)
+        self.GAMMA = 0.5  # discount factor
 
     def reset(self, destination=None):
         self.planner.route_to(destination)
@@ -40,6 +39,9 @@ class LearningAgent(Agent):
 
         # TODO: Update state
         state = (self.next_waypoint, inputs['light'], inputs['oncoming'], inputs['left'], inputs['right'])
+
+        # Update self.state with compressed state, so the GUI can report it
+        self.state = self.compress_sa(state, None)[0:4]
 
         # If Q-value does not exist for current state (any action), make initial Q-value = 0
         valid_actions = [None, 'forward', 'left', 'right']
