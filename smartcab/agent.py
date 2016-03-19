@@ -21,9 +21,7 @@ class LearningAgent(Agent):
         # Constants
         self.INITIAL_Q = 0.
         self.SIGMOID_OFFSET = 6.
-        self.SIGMOID_RATE = 0.5
-        self.MIN_RAND_PROB = 0.25
-        self.MAX_GLOBAL_T_RAND = 1500  # max number of update() calls to guaruntee minimum random action probability
+        self.SIGMOID_RATE = 0.01
         self.ALPHA = 0.1
         self.GAMMA = 0.5
 
@@ -56,9 +54,7 @@ class LearningAgent(Agent):
         prob_q = 1/(1 + math.exp(-self.SIGMOID_RATE*self.global_t + self.SIGMOID_OFFSET))  # sigmoid function
         threshold = random.uniform(0, 1)
 
-        min_rand_prob = self.MIN_RAND_PROB if self.global_t < self.MAX_GLOBAL_T_RAND else 0
-
-        if prob_q - min_rand_prob >= threshold:
+        if prob_q >= threshold:
             qs = [self.qtable[self.compress_sa(state, None)], self.qtable[self.compress_sa(state, 'forward')], self.qtable[self.compress_sa(state, 'left')], self.qtable[self.compress_sa(state, 'right')]]
             action = valid_actions[qs.index(max(qs))]
         else:
