@@ -7,7 +7,7 @@ from simulator import Simulator
 class LearningAgent(Agent):
     """An agent that learns to drive in the smartcab world."""
 
-    def __init__(self, env):
+    def __init__(self, env, sigmoid_offset=6., sigmoid_rate=0.01, alpha_decay=0.5, gamma=0.5):
         super(LearningAgent, self).__init__(env)  # sets self.env = env, state = None, next_waypoint = None, and a default color
         self.color = 'red'  # override color
         self.planner = RoutePlanner(self.env, self)  # simple route planner to get next_waypoint
@@ -18,7 +18,7 @@ class LearningAgent(Agent):
         self.net_reward = 0
         self.penalties = 0  # number of times a penalty (reward < 0) was incurred
 
-        # Constants
+        # Hyper parameters
         self.INITIAL_Q = 0.
         self.SIGMOID_OFFSET = 6.  # Epsilon-greedy exploration: Epsilon = 1 - sigmoid_function
         self.SIGMOID_RATE = 0.01  # (same as above)
@@ -95,14 +95,6 @@ class LearningAgent(Agent):
         wp, light, oncoming, left, right = state
 
         # State compression and internal representation
-
-        # Ignore 'left' when 'light' is green
-        if light is 'green':
-            left = None
-        # Ignore 'oncoming' when 'light' is red
-        elif light is 'red':
-            oncoming = None
-
         # Ignore 'right' altogether, since traffic on the right has no effect on our driving agent
         # Also append our action to the end of list
         sa = [wp, light, oncoming, left, action]
@@ -115,17 +107,19 @@ class LearningAgent(Agent):
         return tuple(sa)
 
 
-def run():
+def run(*args, **kwargs):
     """Run the agent for a finite number of trials."""
 
     # Set up environment and agent
     e = Environment()  # create environment (also adds some dummy traffic)
-    a = e.create_agent(LearningAgent)  # create agent
+    a = e.create_agent(LearningAgent, *args, **kwargs)  # create agent
     e.set_primary_agent(a, enforce_deadline=True)  # set agent to track
 
     # Now simulate it
     sim = Simulator(e, update_delay=0.)  # reduce update_delay to speed up simulation
-    sim.run(n_trials=100)  # press Esc or close pygame window to quit
+    score = sim.run(n_trials=100)  # press Esc or close pygame window to quit
+
+    return score
 
 
 if __name__ == '__main__':

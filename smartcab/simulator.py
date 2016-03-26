@@ -47,6 +47,11 @@ class Simulator(object):
         self.paused = False
 
     def run(self, n_trials=1):
+        # Keep track of the "score", defined as follows:
+        # For the final 30% of trials (e.g. last 30 trials in 100-trial run), score = # of successful trials / (n_trials*0.3)
+        score = 0.
+        num_success = 0.
+
         self.quit = False
         for trial in xrange(n_trials):
             print "Simulator.run(): Trial {}".format(trial)  # [debug]
@@ -83,10 +88,21 @@ class Simulator(object):
                     self.quit = True
                 finally:
                     if self.quit or self.env.done:
+                        # Keep track of score when applicable
+                        if trial >= 0.7 * n_trials:
+                            if self.env.success:
+                                num_success += 1
+
                         break
 
             if self.quit:
                 break
+
+        score = num_success / (0.3 * n_trials)
+        print '%i successful trials in final %i trials' % (num_success, 0.3*n_trials)
+        print 'Score = %.4f' % score
+
+        return score
 
     def render(self):
         # Clear screen
