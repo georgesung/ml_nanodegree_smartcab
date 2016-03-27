@@ -19,10 +19,10 @@ if __name__ == '__main__':
 			for alpha_decay in alpha_decay_range:
 				for gamma in gamma_range:
 					# Run trials with given parameter combination
-					if (sigmoid_offset,sigmoid_rate,alpha_decay,gamma) == (2., 0.1, 0.1, 0.9):
-						score = agent.run(sigmoid_offset=sigmoid_offset, sigmoid_rate=sigmoid_rate, alpha_decay=alpha_decay, gamma=gamma)
+					score = agent.run(sigmoid_offset=sigmoid_offset, sigmoid_rate=sigmoid_rate, alpha_decay=alpha_decay, gamma=gamma)
 
 					csv_string += '%f,%f,%f,%f,%.4f\n' % (sigmoid_offset,sigmoid_rate,alpha_decay,gamma,score)
+					print 'Hyper-parameter search status: %f,%f,%f,%f,%.4f' % (sigmoid_offset,sigmoid_rate,alpha_decay,gamma,score)  # [debug]
 
 	# Write results to hyper_params.csv
 	fo = open('hyper_params.csv', 'wb')

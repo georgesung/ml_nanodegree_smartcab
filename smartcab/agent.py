@@ -87,7 +87,7 @@ class LearningAgent(Agent):
         #print 'Global time: %i' % self.global_t  # [debug]
 
         # Report net_reward and number of penalties
-        print 'Net reward: %i, # of penalties: %i' % (self.net_reward, self.penalties)
+        #print 'Net reward: %i, # of penalties: %i' % (self.net_reward, self.penalties)
 
     def compress_sa(self, state, action):
         """Given state, action pair, compress it into a smaller representation space"""
