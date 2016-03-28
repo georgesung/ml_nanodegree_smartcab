@@ -12,7 +12,7 @@ https://www.pygame.org/wiki/GettingStarted
 
 ## Code
 
-All modified code is in `smartcab/agent.py`
+All code is in `smartcab/*.py`
 
 ## Report
 
@@ -24,6 +24,6 @@ Make sure you are in the top-level project directory `smartcab/` (that contains 
 
 ```python smartcab/agent.py```
 
-OR:
+To execute the hyper-parameter sweep, run:
 
-```python -m smartcab.agent```
+```python smartcab/find_hyper_params.py```

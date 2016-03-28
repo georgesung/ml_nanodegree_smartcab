@@ -7,10 +7,11 @@ from simulator import Simulator
 class LearningAgent(Agent):
     """An agent that learns to drive in the smartcab world."""
 
-    def __init__(self, env, sigmoid_offset=6., sigmoid_rate=0.01, alpha_decay=0.5, gamma=0.5):
+    def __init__(self, env, sigmoid_offset=6., sigmoid_rate=0.1, alpha_decay=0.5, gamma=0.5):
         super(LearningAgent, self).__init__(env)  # sets self.env = env, state = None, next_waypoint = None, and a default color
         self.color = 'red'  # override color
         self.planner = RoutePlanner(self.env, self)  # simple route planner to get next_waypoint
+
         # TODO: Initialize any additional variables here
         self.qtable = {}  # Q-value table: key = state-action, value = Q-value
         self.prev_sa = None  # keep track of previous state-action
@@ -20,10 +21,12 @@ class LearningAgent(Agent):
 
         # Hyper parameters
         self.INITIAL_Q = 0.
-        self.SIGMOID_OFFSET = 6.  # Epsilon-greedy exploration: Epsilon = 1 - sigmoid_function
-        self.SIGMOID_RATE = 0.01  # (same as above)
-        self.ALPHA_DECAY = 0.5  # learning rate: alpha = (global_t + 1)**(-ALPHA_DECAY)
-        self.GAMMA = 0.5  # discount factor
+        self.SIGMOID_OFFSET = sigmoid_offset  # Epsilon-greedy exploration: Epsilon = 1 - sigmoid_function
+        self.SIGMOID_RATE = sigmoid_rate  # (same as above)
+        self.ALPHA_DECAY = alpha_decay  # learning rate: alpha = (global_t + 1)**(-ALPHA_DECAY)
+        self.GAMMA = gamma  # discount factor
+
+        #print '%f, %f, %f, %f' % (self.SIGMOID_OFFSET, self.SIGMOID_RATE, self.ALPHA_DECAY, self.GAMMA)  # [debug]
 
     def reset(self, destination=None):
         self.planner.route_to(destination)
@@ -87,7 +90,7 @@ class LearningAgent(Agent):
         #print 'Global time: %i' % self.global_t  # [debug]
 
         # Report net_reward and number of penalties
-        #print 'Net reward: %i, # of penalties: %i' % (self.net_reward, self.penalties)
+        print 'Net reward: %i, # of penalties: %i' % (self.net_reward, self.penalties)
 
     def compress_sa(self, state, action):
         """Given state, action pair, compress it into a smaller representation space"""

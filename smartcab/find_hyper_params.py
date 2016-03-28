@@ -5,10 +5,10 @@ if __name__ == '__main__':
 	# Save parameters and scores into csv file for easy sorting and plotting
 
 	# Declare parameter ranges to search over
-	sigmoid_offset_range = [2., 4., 6., 8.]
-	sigmoid_rate_range   = [10**i for i in range(-4, 0)]
-	alpha_decay_range    = [0.1, 0.5, 0.9, 1.3]
-	gamma_range          = [0.1, 0.5, 0.9, 1.3]
+	sigmoid_offset_range = [4., 6., 8.]
+	sigmoid_rate_range   = [10**i for i in range(-3, 0)]
+	alpha_decay_range    = [0.1, 0.5, 0.9]
+	gamma_range          = [0.1, 0.5, 0.9]
 
 	csv_string = 'sigmoid_offset,sigmoid_rate,alpha_decay,gamma,score\n'
 	score = -1.
