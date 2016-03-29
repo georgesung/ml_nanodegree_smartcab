@@ -59,6 +59,14 @@ class Simulator(object):
             self.current_time = 0.0
             self.last_updated = 0.0
             self.start_time = time.time()
+
+            # For last 3 trials, set update_delay=1 to manually observe whether agent learned "optimal" policy
+            if trial == n_trials-4:
+                self.update_delay = 1.0
+                print 'PAUSED: Final trial, update_delay=1.0. Press any key to resume.'
+                self.paused = True
+                self.pause()
+
             while True:
                 self.current_time = time.time() - self.start_time
                 #print "Simulator.run(): current_time = {:.3f}".format(self.current_time)

@@ -7,7 +7,7 @@ from simulator import Simulator
 class LearningAgent(Agent):
     """An agent that learns to drive in the smartcab world."""
 
-    def __init__(self, env, sigmoid_offset=6., sigmoid_rate=0.1, alpha_decay=0.5, gamma=0.5):
+    def __init__(self, env, sigmoid_offset=8., sigmoid_rate=0.01, alpha_decay=0.1, gamma=0.5):
         super(LearningAgent, self).__init__(env)  # sets self.env = env, state = None, next_waypoint = None, and a default color
         self.color = 'red'  # override color
         self.planner = RoutePlanner(self.env, self)  # simple route planner to get next_waypoint
